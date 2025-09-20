@@ -1,0 +1,87 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg
+*.eggs
+*.env
+*.venv
+venv/
+env/
+ENV/
+.venv/
+
+# VS Code
+.vscode/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Virtual Environment
+fastapi/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# JSON data
+patients.json
+
+# Uvicorn reload artifacts
+*.db
+
+# Misc
+*.bak
+*.swp
+*.swo
+
+# Ignore test coverage
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Ignore pip logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore build
+build/
+dist/
+*.egg-info/
+
+# Ignore wheel
+*.whl
+
+# Ignore mypy
+.mypy_cache/
+.dmypy.json
+
+# Ignore pytest
+.pytest_cache/
+
+# Ignore profiling
+.prof
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore backup files
+*.bak
+
+# Ignore IDE
+.idea/
+
+# Ignore node modules
+node_modules/
