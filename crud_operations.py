@@ -129,6 +129,8 @@ def update_patient(patient_id:str , patient_update:PatientUpdate):
         existing_patient_info[key] = value
         
     existing_patient_info['id'] = patient_id
+    # here the problem is there are some computed fields in the Patient model
+    # so we will create a new Patient object to recalculate those fields
     
     patient_pydantic_obj = Patient(**existing_patient_info)
     

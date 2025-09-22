@@ -85,3 +85,6 @@ dist/
 
 # Ignore node modules
 node_modules/
+
+#ignore mcp folde
+mcp/
